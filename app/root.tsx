@@ -16,7 +16,7 @@ export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
 ];
 
-// @TODO: ADD MOBILE BOTTOM NAVIGATION BAR FROM NON-PC SCREENS
+// @TODO: ADD MOBILE BOTTOM NAVIGATION BAR FOR NON-PC SCREENS
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const matches = useMatches();
